@@ -83,5 +83,16 @@
         </footer>
 
     </article>
+    nav>  
+    <div>
+        {{#if next}}
+        前一篇：<a href="{{next.url}}">{{{next.title}}}</a>
+        {{/if}}
+    </div>
+    <div>
+        {{#if previous}}
+        后一篇：<a href="{{previous.url}}">{{{previous.title}}}</a>
+        {{/if}}
+    </div>
 </div>
 {{/post}}
