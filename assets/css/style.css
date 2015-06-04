@@ -535,7 +535,27 @@ article#main-article section.tags {
   width: 100%;
   text-align: center;
 }
-
+nav.post-nav {
+  position: relative;
+  background-color: #FAFAFA;
+  margin: 2em;
+  padding: 1em;
+  z-index: 100;
+  border-radius: 3px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3), 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+@media (max-width: 30em) {
+  nav.post-nav {
+    margin: 0;
+    padding: 1em 0.5em;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.3);
+  }
+}
+@media (max-width: 30em) {
+  footer.post-footer {
+    nav.post-nav: 1em;
+  }
+}
 footer.post-footer {
   position: relative;
   background-color: #FAFAFA;
