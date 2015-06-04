@@ -1,13 +1,13 @@
 {
-  "name": "MaterialShowcase",
+  "name": "MaterialShowcaseCarrot",
   "title": "Material Showcase",
-  "author": "Vincent De Feo",
-  "copyright": "Vincent De Feo",
+  "author": "Vincent De Feo, Carrot",
+  "copyright": "Vincent De Feo, Carrot",
   "license": "GNU GPL V2",
-  "version": "1.1.0",
+  "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/ghzmdr/material-showcase-ghost-theme"
+    "url": "git://github.com/Carrotzpc/carrot-ghost-theme"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
